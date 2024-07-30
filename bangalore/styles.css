@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    width: auto; /* Increased width for a larger container */
+    height: auto;
+    text-align: center;
+    background-color: #e8dada;
+    padding: 40px; /* Increased padding for more space */
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(90, 42, 42, 0.2); /* Slightly darker shadow */
+}
+
+h1 {
+    margin-bottom: 30px; /* Increased margin for more spacing */
+    font-size: 2.5rem; /* Increased font size */
+    width: 100%; /* Increase the width of the h1 element */
+    white-space: nowrap; /* Prevent text from wrapping to a new line */
+    overflow: hidden; /* Optional: hides overflow text */
+    /* text-overflow: ellipsis; Optional: adds ellipsis (...) for overflow text */
+}
+
+h2 {
+    margin-top: 30px; /* Increased margin for more spacing */
+    font-size: 1.8rem; /* Larger font size */
+}
+
+.file-list {
+    text-align: left;
+    margin: 30px auto; /* Added margin for better spacing */
+    width: 90%; /* Adjust width for better fit */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0; /* Increased margin for spacing */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+    gap: 20px; /* Increased gap between buttons */
+    margin-top: 20px;
+}
+
+button {
+    width: 100%; /* Make buttons full width */
+    padding: 20px; /* Increased padding for larger buttons */
+    font-size: 1.2rem; /* Increased font size */
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Slightly larger border radius */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,30 @@
+<!-- jibran1455@gmail.com -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Select a City</h1>
+        <div class="buttons">
+            <button onclick="selectCity('bangalore')">Bangalore</button>
+            <br>
+            <button onclick="selectCity('gurgaon')">Gurgaon</button>
+            <br>
+            <button onclick="selectCity('mumbai')">Mumbai</button>
+            <ul>
+                <h1>Extra Menu</h1>
+                <li><a class="button-link" href="Revised Final Files for eBook\Menus.pptx" download>Menu</a></li>
+                <li><a class="button-link" href="Revised Final Files for eBook\Wines.xlsx" download>Wines</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>function selectCity(city) {
+    window.location.href = city + ".html";
+}</script>
+</body>
+</html>
